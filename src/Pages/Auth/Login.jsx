@@ -25,7 +25,7 @@ const LoginAuth = () => {
         </div>
         <div className="login-userheading">
             <h3>Sign In</h3>
-            <h4>Please login to your account</h4>
+            <h4>Aplikasi pemantau Absensi</h4>
         </div>
         <form  onSubmit={handleSubmit}>
             <div className="form-login">
