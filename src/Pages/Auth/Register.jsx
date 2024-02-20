@@ -1,11 +1,18 @@
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {useState} from "react";
 
 const RegisterPage = () => {
+    const navigate = useNavigate();
+
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
+    if(email){
+        console.log("berhasil login")
+        localStorage.setItem("username", email);
+        navigate("/auth/login");
+    }
 
     return <>
         <div className="login-userset">
