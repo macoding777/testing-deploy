@@ -42,6 +42,11 @@ const homeDashboard = () => {
                                                 <td>7.30</td>
                                                 <td>20-2-2024</td>
                                             </tr>
+                                            <tr>
+                                                <td>Indiana dina</td>
+                                                <td>7.31</td>
+                                                <td>20-2-2024</td>
+                                            </tr>
                                             </tbody>
                                         </table>
                                     </div>

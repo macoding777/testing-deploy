@@ -12,12 +12,12 @@ const Sidebar = () => {
                                 <span>Daftar Absensi</span>
                             </NavLink>
                         </li>
-                        <li>
-                            <NavLink to="/profile">
-                                <img src="/assets/img/icons/users1.svg" alt="img"/>
-                                <span>Profile</span>
-                            </NavLink>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <NavLink to="/profile">*/}
+                        {/*        <img src="/assets/img/icons/users1.svg" alt="img"/>*/}
+                        {/*        <span>Profile</span>*/}
+                        {/*    </NavLink>*/}
+                        {/*</li>*/}
                         <li>
                             <NavLink to="/logout">
                                 {/*<img src="/assets/img/icons/log-out.svg" alt="img"/>*/}
